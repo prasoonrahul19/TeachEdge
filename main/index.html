@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Navbar using HTML, CSS and Javascript</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="countdown.css">
 </head>
 <body>
     <header>
@@ -56,7 +57,7 @@
 
 
     <section id="home" >
-      <h2>Enhance Your Future With TechEdge</h2>
+      <h2>Enhance Your Future With TeachEdge</h2>
       <p>TechEdge is an educational app designed for teachers, providing a platform for interactive learning, resource sharing, and classroom management.</P>
        <div class="btn">
         <a href="#" class="blue">Learn More</a>
@@ -64,7 +65,7 @@
     </section>
     <!-- COURSES -->
     <section id="courses">
-      <h2>OUR POPULAR COURSES</h2>
+      <h2>COURSES</h2>
       <div class="container courses_container">
         <article class="course">
           <div class="course_img1">
@@ -142,7 +143,66 @@
       </div>
     </section>
 
+    <section id="discuss">
+      <h2>Discussion Forum</h2>
+      <center>
+        <div class="discussion">
+        <div class="count">
+        <img src="img/realistic-coming-soon-background_52683-59078.avif" alt="">
+      </div>
+      <p>The countdown to the launch of our Discussion Forum has begun! We can't wait to see you actively participating in this educational revolution. 
+        Stay tuned for updates on the exact launch date, sneak peeks, and early access opportunities.</p>
+     
+      <div id="countdown">
+        <ul>
+          <li><span id="days"></span>days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+          <li><span id="seconds"></span>Seconds</li>
+        </ul>
+      </div>
+      <!-- <a href="#">Notify Me!</a> -->
+      <div class="img">
+        <img src="img/qv3a2o16.png" alt="">
+      </div>
+
+    </div>
+  </center>
+
+      
+
+    </section>
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="left-col">
+      <img src="img/WhatsApp Image 2023-09-26 at 1.58.05 AM.jpeg" style="width: 200px;">
+      <div class="logo"></div>
+      <div class="social-media">
+        <a href="#"><img src="img/fb.png"></a>
+        <a href="#"><img src="img/insta.png"></a>
+        <a href="#"><img src="img/tt.png"></a>
+        <a href="#"><img src="img/ytube.png"></a>
+        <a href="#"><img src="img/linkedin.png"></a>
+      </div><br><br>
+      <p class="rights-text">Copyright © 2023 Created By Rahul Kumar, TeachEdge Team All Rights Reserved.</p>
+      <br><p><img src="img/location.png" style="width:64px;height:64px;"> TeachEdge PVT.LTD Bangalore,560063</p>
+      <p><img src="img/phone.png"   style="width:64px;height:64px;""> +91-1234-567-890<br><img src="img/mail.png"  style="width:64px;height:64px;">&nbsp; TeachEdge@gmail.com</p>
+    </div>
+    <div class="right-col">
+      <h1 style="color: #fff">Our Newsletter</h1>
+      <div class="border"></div><br>
+      <p>Enter Your Email to get our News and updates.</p>
+      <form class="newsletter-form">
+        <input class="txtb" type="email" placeholder="Enter Your Email">
+        <input class="btn" type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</footer>
+
 
   <script src="app.js"></script>
+  <script src="countdown.js"></script>
 </body>
 </html>

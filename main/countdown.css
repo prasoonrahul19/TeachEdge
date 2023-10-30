@@ -1,0 +1,92 @@
+/* general styling */
+#discuss
+{
+    background: #a0bfb9;
+}
+
+  
+  .countdown {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+ 
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+    li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+  
+  #discuss h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 50px;
+    margin: auto;
+    text-transform:uppercase
+  }
+  .count{
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+  }
+ section #discuss {
+  
+    position: relative;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100%;
+    padding: 0 100px;
+  }
+
+  section .discussion
+  {
+    position:relative;
+    max-width: 50%;
+    z-index: 10000;
+
+  }
+  section .discussion h4
+  {
+    font-size: 60px;
+    position:relative;
+
+    align-items: center;
+  }
+  section .discussion p{
+    font-size: 30px;
+    color: #fff;
+
+  }
+  section .discussion .countdown
+  {
+    display: flex;
+    margin: 20px 0;
+  }
+  
+  
+  
